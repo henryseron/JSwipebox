@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="content" method="upgrade">
+        <name>Contenido - JSwipbox</name>
+        <author>Shaking Web</author>
+        <creationDate>January 2014</creationDate>
+        <copyright>Copyright (C) Shaking Web. All rights reserved</copyright>
+        <license>GNU General Public License version 2 or later</license>
+        <authorEmail>contacto@shakingweb.com</authorEmail>
+        <authorUrl>http://www.shakingweb.com</authorUrl>
+        <version>1.0.1</version>
+        <description>PLG_JSWIPEBOX_DESCRIPTION</description>
+        <files>
+            <filename plugin="jswipebox">jswipebox.php</filename>
+            <filename>CHANGELOG.txt</filename>
+            <filename>index.html</filename>
+            <folder>assets</folder>
+        </files>
+        <languages>
+            <language tag="en-GB">language/en-GB.plg_content_jswipebox.ini</language>
+            <language tag="en-GB">language/en-GB.plg_content_jswipebox.sys.ini</language>
+            <language tag="es-ES">language/es-ES.plg_content_jswipebox.ini</language>
+            <language tag="es-ES">language/es-ES.plg_content_jswipebox.sys.ini</language>
+	</languages>
+        <config>
+            <fields name="params">
+                <fieldset name="basic">
+                    <field name="width" type="text" default="120" description="PLG_JSWIPEBOX_WIDTH_DESC" label="PLG_JSWIPEBOX_WIDTH" />
+                    <field name="height" type="text" default="90" description="PLG_JSWIPEBOX_HEIGHT_DESC" label="PLG_JSWIPEBOX_HEIGHT" />
+                </fieldset>
+            </fields>
+        </config>
+</extension>

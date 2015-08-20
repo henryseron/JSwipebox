@@ -1,0 +1,19 @@
+Español
+
+Versión 1.0.1
+
+- Se agregan parámetros de ancho y alto en la configuración del plugin, para las miniaturas de las imágenes
+
+Versión 1.0.0
+
+- Adaptación del plugin Swipebox para J!, solo compatibilidad para imágenes, no videos
+
+English
+
+Version 1.0.1
+
+- Parameters added in plugin configuration to use in the thumbnails: width and height
+
+Version 1.0.0
+
+- Plugin Swipebox is adated for J!, but only compatibility with images, not videos
